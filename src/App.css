@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .bg-primary {
+    @apply bg-[#f59e0b];
+  }
+  .bg-secondary {
+    @apply bg-[#7e22ce];
+  }
+  .text-primary {
+    @apply text-[#f59e0b];
+  }
+  .text-secondary {
+    @apply text-[#7e22ce];
+  }
+  .b-primary {
+    @apply border-[#f59e0b];
+  }
+  .b-secondary {
+    @apply border-[#7e22ce];
+  }
+  .ring-primary {
+    @apply ring-[#f59e0b];
+  }
+  .link {
+    @apply relative p-2 cursor-pointer text-lg font-medium before:absolute before:inset-x-0 before:-bottom-1.5 before:h-1 before:origin-left before:scale-x-0 before:transform before:rounded-bl before:bg-primary before:transition-all before:duration-500 hover:before:scale-x-95;
+  }
+  .footer-link {
+    @apply hover:-translate-y-1 relative p-0.5 cursor-pointer text-sm font-thin before:absolute before:inset-x-0 before:-bottom-0.5 before:h-[2px] before:origin-left before:scale-x-0 before:transform before:rounded-bl before:bg-primary before:transition-all before:duration-500 hover:duration-500 hover:before:scale-x-90;
+  }
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.dot {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.75rem;
+  border-radius: 50%;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.dot-1 {
+  animation-name: dot-1;
+}
+
+.dot-2 {
+  animation-name: dot-2;
+  animation-delay: 0.2s;
+}
+
+.dot-3 {
+  animation-name: dot-3;
+  animation-delay: 0.4s;
+}
+
+.dot-4 {
+  animation-name: dot-4;
+  animation-delay: 0.6s;
+}
+
+@keyframes dot-1 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-1.5rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes dot-2 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-1.5rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes dot-3 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-1.5rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes dot-4 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-1.5rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes spin-slow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 5s linear infinite;
+}

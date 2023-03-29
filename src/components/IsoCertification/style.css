@@ -1,0 +1,211 @@
+
+
+.isoBody{
+    padding: 4rem;
+    position: relative;
+    height: 470vh;
+    margin-top: 8rem;
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.container{
+    flex: 1;
+    padding: 10px;
+    
+}
+
+.sectionBg{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.left_side{
+    flex:2.8;
+    
+}
+
+.right_side{
+    flex:1.3;
+}
+
+/* Left Side CSS */
+.mainContainer{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.mainContainer .firstItem{
+    
+    background-color: #85BBE6;
+    color: white;
+    padding: 3rem;
+}
+
+.mainContainer .section_Heading{
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    color:#333a82;
+    
+}
+
+.overlayName{
+    position: relative;
+    z-index: 50000;
+    margin-top: -14rem;
+    color: white;
+    width: 35%;
+    font-size: 1.8rem;
+    text-align: right;
+    padding: 1rem;
+    background-color: #00A5DD;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    
+    
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    justify-content: center;
+  }
+
+  .itemList{
+    margin: 1.5rem;
+  }
+
+  .getQuoteBtn{
+    width: 100%;
+    background-color: #85BBE6;
+    color: white;
+    font-weight: 700;
+    margin-top: 2rem;
+    padding: 2rem;
+    font-size: 1.2rem;
+  }
+
+  .supportBtn{
+    background-color: #85BBE6;
+    color: white;
+    font-weight: 700;
+    margin-top: 2rem;
+    width: 55%;
+    padding: 10px;
+  }
+
+  .chooseBtn{
+    background-color: #85BBE6;
+    color: white;
+    font-weight: 700;
+    margin-top: 3rem;
+    width: 45%;
+    padding: 10px;
+    border-radius: 1rem;
+  }
+
+  /* Right Side CSS */
+.rightSideMain{
+    margin-left: 2rem;
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.quoteBtn{
+    background-color: #f49007;
+    font-size: 1.3rem;
+    padding: 0.8rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 2rem;
+    transition: all 2s ease-in-out;
+    
+}
+
+.quoteBtn:hover{
+    
+    background-color: #85BBE6;
+}
+
+.firstSection{
+    
+    height: 26rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #333a82;
+    margin-bottom: 2rem;
+}
+
+.firstSection p{
+    line-height: 1.8rem;
+    color: white;
+    padding: 1.7rem;
+}
+
+.secondSection{
+    
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #4b4b4b;
+    margin-bottom: 2rem;
+}
+
+.secondSection p{
+    line-height: 1.8rem;
+    color: white;
+    padding: 2rem;
+}
+
+.thirdSection{
+    
+    height: 24rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #333a82;
+    margin-bottom: 2rem;
+}
+
+.thirdSection p{
+    line-height: 1.8rem;
+    color: white;
+    padding: 1.7rem;
+}
+
+.fourthSection{
+    
+    height: 26rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #4b4b4b;
+    margin-bottom: 2rem;
+}
+
+.fourthSection p{
+    line-height: 1.8rem;
+    color: white;
+    padding: 2rem;
+}
+
+/* Iso Servcies Main */
+.servicesMain{
+    border:1px solid red;
+    width: 100%;
+}
